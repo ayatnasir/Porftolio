@@ -1,0 +1,492 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+  /*
+  =============== 
+  Variables
+  ===============
+  */
+  :root {
+    --primary-color:  white;
+    --secondary-color:   white;
+    ---tertiary-color: rgb(25, 25, 25);;
+  }
+
+  .dark-theme {
+    --primary-color:  rgb(25, 25, 25);
+    --secondary-color: white;
+    ---tertiary-color: white;
+  }
+
+  *,
+  ::after,
+  ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    line-height: 1.5;
+    font-size: 0.875rem;
+    font-family: 'Playfair Display', serif;
+    background-color: var(--primary-color);
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 0.875rem;
+  }
+  p {
+    margin-bottom: 1.25rem;
+    color: var(--clr-grey-5);
+  }
+.background {
+    background: url("./background.jpg");
+}
+  .container-one {
+    width: 100%;
+    height: 80vh;
+    margin-top: 3rem;
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+    color: var(--secondary-color);
+    padding: 2em;
+  }
+
+.container-two {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.container-four {
+  color: var( ---tertiary-color);
+  display: flex;
+}
+
+.container-four .left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.container-four .left h1 {
+  margin-bottom: 1em;
+}
+.resume-contact-box {
+  width: 100%;
+    height: 80vh;
+    margin-top: 15em;
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+    padding: 4em;
+}
+.job-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--secondary-color);
+    letter-spacing: 0.4rem;
+}
+
+.underline {
+    width: 20%; 
+    background-color: var(--secondary-color);
+    height: 10px;
+    border-radius: 30%;
+}
+.text {
+    width: 80%;
+margin-top: 3rem;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.text p {
+    color: var(--secondary-color);
+}
+
+#icon {
+width: 50px;
+height: 50px;
+}
+.nav-center {
+    color: var(---tertiary-color);
+}
+#icon:hover {
+    cursor: pointer;
+}
+
+#projects {
+    padding: 3rem;
+    color: var( ---tertiary-color)
+}
+
+.container-three {
+    height: 100%;
+}
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+.project-card {
+    width: 400px;
+    height: 500px;
+    padding: 2rem;
+    /* background-color: red; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.underline-two {
+    width: 20%; 
+    background-color: var(---tertiary-color);
+    height: 10px;
+    border-radius: 30%;
+
+}
+
+.image-container {
+    display: flex;
+    justify-self: center;
+}
+.project-card img {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.project-card h3, p {
+    text-align: center;
+    color: var(---tertiary-color);
+    margin-top: 1.5em;
+}
+
+.download-btn button {
+  background-color: var(---tertiary-color);
+  color: var( --primary-color);
+  padding: 20px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.download-btn {
+  width: 80%; 
+  display: flex;
+  justify-content: center;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: var(---tertiary-color);
+  color: var( --primary-color);
+  padding: 20px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+/* Add a background color and some padding around the form */
+.right {
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.75rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    body {
+      font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1;
+    }
+  }
+  /*  global classes */
+  
+  /* section */
+  .section {
+    padding: 5rem 0;
+  }
+  
+  .section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+  @media screen and (min-width: 992px) {
+    .section-center {
+      width: 95vw;
+    }
+  }
+  main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  /*
+  =============== 
+  Navbar
+  ===============
+  */
+  nav {
+    background: var(--clr-white);
+    box-shadow: var(--light-shadow);
+  }
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-toggle {
+    font-size: 1.5rem;
+    color: var(--clr-primary-5);
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  .nav-toggle:hover {
+    color: var(--clr-primary-1);
+    transform: rotate(90deg);
+  }
+  .logo {
+    height: 40px;
+  }
+  .links a {
+    color: var(--clr-grey-3);
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: var(--transition);
+  }
+  .links a:hover {
+    background: var(--clr-primary-8);
+    color: var(--clr-primary-5);
+    padding-left: 1.5rem;
+  }
+  .social-icons {
+    display: none;
+  }
+  .links {
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+  }
+  .show-links {
+    height: 10rem;
+  }
+  @media screen and (min-width: 800px) {
+    .nav-center {
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+    .nav-header {
+      padding: 0;
+    }
+    .nav-toggle {
+      display: none;
+    }
+    .links {
+      height: auto;
+      display: flex;
+    }
+    .links a {
+      padding: 0;
+      margin: 0 0.5rem;
+    }
+    .links a:hover {
+      padding: 0;
+      background: transparent;
+    }
+    .social-icons {
+      display: flex;
+    }
+    .social-icons a {
+      margin: 0 0.5rem;
+      color: var(--clr-primary-5);
+      transition: var(--transition);
+    }
+    .social-icons a:hover {
+      color: var(--clr-primary-7);
+    }
+  }
+
+
+ @media screen and (max-width: 768px) {
+.nav-center {
+  padding: 3em;
+}
+  .container-one {
+    width: 100%;
+    height: 150vh;
+
+  }
+
+  .container-two {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+  }
+
+  .dark-mode {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-four {
+    flex-direction: column;
+  }
+  .resume-contact-box {
+    margin-top: 55em;
+  }
+
+  .container-four .right {
+    margin-top: 5em;
+  }
+
+  .download-btn {
+    width: 130%;
+    margin: auto;
+  }
+
+ }
+
+@media screen and (max-width: 850px) {
+  .resume-contact-box {
+    margin-top: 70em;
+  }
+
+  .container-four {
+    flex-direction: column;
+  }
+
+  .container-one {
+    height: 60vh;
+  }
+
+ 
+  .nav-center {
+    padding: 3em;
+  }
+  .container-four .right {
+    margin-top: 5em;
+  }
+
+  .container-four .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+.download-btn  {
+    width: 100%;
+  }
+
+  .download-btn button {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .resume-contact-box {
+    margin-top: 45em;
+  }
+
+  .container-four {
+    flex-direction: column;
+  }
+
+  .container-four .right {
+    margin-top: 5em;
+  }
+
+  .container-four .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .download-btn  {
+    width: 100%;
+  }
+
+  .download-btn button {
+    width: 100%;
+  }
+}
+

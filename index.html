@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A|N</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--NAVBAR-->
+   <nav>
+    <div class="nav-center">
+        <div class="nav-header">
+            <h3>Ayat Nasir</h3>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <ul class="links">
+            <li>
+              <a href="about.html">about</a>
+            </li>
+            <li>
+              <a href="projects.html">projects</a>
+            </li>
+            <li>
+              <a href="contact.html">contact</a>
+            </li>
+          </ul>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ayat-nasir-496731235/" target="_blank" >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+
+          <div class="dark-mode">
+            <img src="./dark theme icon copy/moon.png" id="icon">
+                </div>
+    </div>
+
+   
+   </nav>
+
+   <!--END OF NAVBAR-->
+
+   <div class="container-one background">
+<div class="container-two">
+    <div class="job-title"><h2> Aspiring Developer</h2>
+        <div class="underline"></div>
+    </div>
+    <div class="text">
+        <p>I am studying Software Development with Althaus to become a software developer here in the United Kingdom. <br/>
+
+            The reason I decided to pursue this career path is that I showed a lot of interest during my time at university but never thought that it was actually possible to become a software developer without a degree. Now graduated, I enjoy being able to build a responsive website, and the reward of knowing how to solve a problem motivates me to do more. 
+            
+            In my free time, I enjoy reading, and listening to audiobooks or podcasts. Currently listening to the Duncan Trussell Family Hour podcast and truly enjoy my evenings relaxing to his comical view of the world. Currently reading '7 1/2 Deaths of Evelyn Hardcastle' by Stuart Turton and Susan Stokes-Chapman's Pandora. Previous reads were books by David Hawkins, Salena Godden & Rutger Bregman.</p>
+    </div>
+</div>
+   </div>
+
+<div class="container-one">
+    <div class="container-three">
+        <div class="job-title" id="projects"><h2> Projects</h2>
+            <div class="underline-two"></div>
+        </div>
+       <div class="project-cards">
+            <a href="" target="_blank">  <div class="project-card">
+            <div class="image-container">
+              <img src="./music-player.jpg">
+            </div>
+              <h3>Music Application</h3>
+              <p></p>
+                      </div></a>
+           
+   
+           <a href="" target="_blank"><div class="project-card">
+            <div class="image-container">
+                <img src="./pexels-polina-tankilevitch-6927360.jpg">
+            </div>
+            <h3>Calculator</h3>
+            <p>using a freeCodeCamp guide, I created this calculator and practiced my if statements and how to create functions that can calculate the result of two values.</p>
+                </div> </a> 
+
+           <a href="https://ayatnasir.github.io/photos/" target="_blank">
+            <div class="project-card">
+            <div class="image-container">
+            <img src="./weather.jpg">
+            </div>
+            <h3>Photo Gallery</h3>
+            <p>I created a photo gallery using JavaScript practicing for loops and learning about DOM manipulation.</p>
+            </div> 
+          </a> 
+        </div>
+       
+        </div>
+    
+</div>
+
+<div class="resume-contact-box">
+  <div class="container-four">
+
+    <div class="left">
+      <h1>Download my resume</h1>
+      <div class="download-btn"><a href="Resume.pdf" download=""><button>Download</button></a></div>
+    </div>
+
+    <div class="right">
+      <h2>Contact Me</h2>
+      <form action="https://formsubmit.co/ayatnasir@outlook.com" method="POST">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email address" id="email">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit" id="btn">
+    
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>
