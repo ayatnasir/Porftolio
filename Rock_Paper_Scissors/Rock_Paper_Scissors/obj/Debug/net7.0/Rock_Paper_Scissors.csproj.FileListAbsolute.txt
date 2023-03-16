@@ -1,0 +1,15 @@
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/obj/Debug/net7.0/Rock_Paper_Scissors.csproj.AssemblyReference.cache
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/obj/Debug/net7.0/Rock_Paper_Scissors.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/obj/Debug/net7.0/Rock_Paper_Scissors.AssemblyInfoInputs.cache
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/obj/Debug/net7.0/Rock_Paper_Scissors.AssemblyInfo.cs
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/obj/Debug/net7.0/Rock_Paper_Scissors.csproj.CoreCompileInputs.cache
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/bin/Debug/net7.0/Rock_Paper_Scissors
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/bin/Debug/net7.0/Rock_Paper_Scissors.deps.json
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/bin/Debug/net7.0/Rock_Paper_Scissors.runtimeconfig.json
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/bin/Debug/net7.0/Rock_Paper_Scissors.dll
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/bin/Debug/net7.0/Rock_Paper_Scissors.pdb
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/obj/Debug/net7.0/Rock_Paper_Scissors.dll
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/obj/Debug/net7.0/refint/Rock_Paper_Scissors.dll
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/obj/Debug/net7.0/Rock_Paper_Scissors.pdb
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/obj/Debug/net7.0/Rock_Paper_Scissors.genruntimeconfig.cache
+/Users/ayatnasir/Projects/Rock_Paper_Scissors/Rock_Paper_Scissors/obj/Debug/net7.0/ref/Rock_Paper_Scissors.dll
